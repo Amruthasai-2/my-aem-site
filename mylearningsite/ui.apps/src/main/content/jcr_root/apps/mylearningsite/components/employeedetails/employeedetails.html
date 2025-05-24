@@ -1,0 +1,12 @@
+<div data-emptytext="Employee Details Component" class="cq-placeholder"></div>
+<sly data-sly-test="${properties.name}">
+<div class="employee-details-background">
+<p>Name of the Employee: ${properties.name}</p>
+<p>Age of the Employee: ${properties.age}</p>
+<p>Number of the Employee: ${properties.number}</p>
+<p>Company of the Employee: ${properties.company}</p>
+<p>Designation of the Employee: ${properties.designation}</p>
+</div>
+</sly>
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"/>
+<sly data-sly-call="${clientlib.css @ categories='employee.details'}"/>
