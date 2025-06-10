@@ -1,12 +1,14 @@
 <div data-emptytext="Employee Details Sling Component" class="cq-placeholder"></div>
-<sly data-sly-test="${properties.sname}">
+<sly data-sly-use.employeeDetailsSlingmodel="com.mylearningsite.aem.core.models.EmployeeDetailsSlingModel">
+<sly data-sly-test="${employeeDetailsSlingmodel.sname}">
 <div class="employee-details-background">
-<p>Name of the Employee: ${properties.sname}</p>
-<p>Age of the Employee: ${properties.sage}</p>
-<p>Number of the Employee: ${properties.snumber}</p>
-<p>Company of the Employee: ${properties.scompany}</p>
-<p>Designation of the Employee: ${properties.sdesignation}</p>
+<p>Name of the Employee: ${employeeDetailsSlingmodel.sname}</p>
+<p>Age of the Employee: ${employeeDetailsSlingmodel.sage}</p>
+<p>Number of the Employee: ${employeeDetailsSlingmodel.snumber}</p>
+<p>Company of the Employee: ${employeeDetailsSlingmodel.scompany}</p>
+<p>Designation of the Employee: ${employeeDetailsSlingmodel.sdesignation}</p>
 </div>
+</sly>
 </sly>
 <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"/>
 <sly data-sly-call="${clientlib.css @ categories='employee.details'}"/>
