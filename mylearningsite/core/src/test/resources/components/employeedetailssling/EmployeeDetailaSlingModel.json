@@ -1,0 +1,15 @@
+{
+  "data": {
+  "jcr:primaryType": "nt:unstructured",
+  "snumber": "2482155",
+  "jcr:createdBy": "admin",
+  "jcr:lastModifiedBy": "admin",
+  "scompany": "TCS",
+  "jcr:created": "Tue Jun 10 2025 21:59:05 GMT+0530",
+  "sage": "23",
+  "sname": "Amrutha",
+  "jcr:lastModified": "Tue Jun 10 2025 21:59:30 GMT+0530",
+  "sdesignation": "Engineer",
+  "sling:resourceType": "mylearningsite/components/employeedetailssling"
+}
+}
