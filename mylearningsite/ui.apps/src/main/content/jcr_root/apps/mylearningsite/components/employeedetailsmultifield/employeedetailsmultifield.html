@@ -1,0 +1,16 @@
+<div data-emptytext="Employee Details Multifield Component" class="cq-placeholder"></div>
+<sly data-sly-use.employeeMfObject="com.mylearningsite.aem.core.models.EmployeeDetailsMultifieldModel">
+<sly data-sly-test="${employeeMfObject.mname}">
+<div class="employee-details-background">
+<p>Name of the Employee: ${employeeMfObject.mname}</p>
+<p>Age of the Employee: ${employeeMfObject.mage}</p>
+<p>Number of the Employee: ${employeeMfObject.mnumber}</p>
+<sly data-sly-list.multiListObj="${employeeMfObject.multifieldList}">
+<p>Company of the Employee: ${multiListObj.mcompany}</p>
+<p>Designation of the Employee: ${multiListObj.mdesignation}</p>
+</sly>
+</div>
+</sly>
+</sly>
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"/>
+<sly data-sly-call="${clientlib.css @ categories='employee.details'}"/>
