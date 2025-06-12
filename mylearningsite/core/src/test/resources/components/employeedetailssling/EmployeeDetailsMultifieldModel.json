@@ -1,0 +1,26 @@
+{
+  "data": {
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:createdBy": "admin",
+    "jcr:lastModifiedBy": "admin",
+    "jcr:created": "Tue Jun 10 2025 06:33:02 GMT-0600",
+    "mage": "23",
+    "mname": "Amrutha",
+    "jcr:lastModified": "Tue Jun 10 2025 06:33:46 GMT-0600",
+    "mnumber": "2482155",
+    "sling:resourceType": "mylearningsite/components/employeedetailsmultifield",
+    "multifieldList": {
+      "jcr:primaryType": "nt:unstructured",
+      "item0": {
+        "jcr:primaryType": "nt:unstructured",
+        "mdesignation": "Engineer",
+        "mcompany": "TCS"
+      },
+      "item1": {
+        "jcr:primaryType": "nt:unstructured",
+        "mdesignation": "AEM Developer",
+        "mcompany": "TCS"
+      }
+    }
+  }
+}
